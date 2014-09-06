@@ -1,0 +1,15 @@
+{
+  "name": "metalsmith-duo",
+  "version": "0.0.1",
+  "description": "A Metalsmith plugin to compile assets with duojs",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Moretti (@axyz)",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "duo": "^0.8.2"
+  }
+}
