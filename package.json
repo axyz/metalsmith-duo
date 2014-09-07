@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-duo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Metalsmith plugin to compile assets with duojs",
   "main": "lib/index.js",
   "scripts": {
