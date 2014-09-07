@@ -60,8 +60,8 @@ However this is going to work only for really small projects, when things get co
 {
   "plugins": {
     "metalsmith-duo": {
-      "DEST1":"ORIG1":
-      "DEST2":"ORIG2":
+      "DEST1":"ORIG1",
+      "DEST2":"ORIG2"
     }
   }
 }
@@ -73,8 +73,8 @@ where `DEST1` and `DEST2` are the paths of the built files, while `ORIG1` and `O
 {
   "plugins": {
     "metalsmith-duo": {
-      "css/index.css":"stylesheets/main.css":
-      "js/bundle.js":"scripts/app.js":
+      "css/index.css":"stylesheets/main.css",
+      "js/bundle.js":"scripts/app.js"
     }
   }
 }
