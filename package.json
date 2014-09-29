@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
-    "duo": "^0.8.2"
+    "duo": "^0.8.4"
   }
 }
