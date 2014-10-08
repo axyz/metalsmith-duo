@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-duo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A Metalsmith plugin to compile assets with duojs",
   "main": "lib/index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.0",
-    "duo": "^0.8.2"
+    "duo": "^0.8.4"
   }
 }
