@@ -7,10 +7,20 @@
     "type": "git",
     "url": "https://github.com/axyz/metalsmith-duo"
   },
+  "scripts": {
+    "test": "make test"
+  },
   "author": "Andrea Moretti (@axyz)",
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.2",
     "duo": "^0.8.4"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "duo-autoprefixer": "^1.1.0",
+    "metalsmith": "^2.0.1",
+    "mocha": "^2.2.5",
+    "rimraf": "^2.4.2"
   }
 }
