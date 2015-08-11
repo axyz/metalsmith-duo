@@ -1,3 +1,6 @@
+# Ignore duo cache
+test/fixtures/**/components
+
 # Logs
 logs
 *.log
