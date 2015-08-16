@@ -84,4 +84,21 @@ describe('metalsmith-duo', function(){
       });
   });
 
+  it('should ignore entry points that don\'t exist', function(done){
+    this.timeout(15000);
+    setTimeout(done, 15000);
+
+    rimraf.sync('./test/fixtures/nonexistent/components');
+
+    Metalsmith('test/fixtures/nonexistent')
+      .use(duo({entry: ['index.js']}))
+      .build(function(err){
+        if (err) {
+          return done(err);
+        }
+        equal('test/fixtures/nonexistent/expected', 'test/fixtures/nonexistent/build');
+        done();
+      });
+  });
+
 });
