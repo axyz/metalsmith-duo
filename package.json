@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "^0.9.2",
-    "duo": "^0.8.4"
+    "duo": "^0.15.3"
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
